@@ -57,12 +57,15 @@ pip install pandas numpy tensorflow scikit-learn matplotlib
 
 ## 运行方法
 
+通常直接运行`main.ipynb`即可，但由于`TensorFlow 2.11`与Jupyter Kernal部分版本之间存在不兼容的问题导致Kernel崩溃，此时可运行`main.py`.
+
 确认csv数据存在，并运行主脚本：
 
 ```bash
 python main.py
 ```
 或者复制本README里的全部代码运行。
+
 
 ## 结果图示
 
